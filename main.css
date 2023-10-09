@@ -1,0 +1,76 @@
+body {
+    font-family: Roboto,sans-serif;
+}
+
+.navbar {
+    background-color: #ffce4e;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #231c21;
+    color: #ffce4e;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: Mooli, sans-serif;
+}
+
+.navbar-toggler {
+    background-color: #231c21;
+}
+
+.section-title {
+    font-family: Mooli, sans-serif;
+}
+
+#guilda, #especialidades {
+    background-color: #231c21;
+    color: #fff;
+}
+
+.text-colored {
+    color: #ffce4e;
+}
+
+.akaashi-color {
+    color: #00ffef;
+}
+
+.drakkar-color {
+    color: #556b2f;
+}
+
+.nav-cardapio .nav-link.active, #junte-se button {
+    background-color: #231c21;
+    color: #ffce4e;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #ffce4e;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+#icon {
+    width: 55px;
+}
